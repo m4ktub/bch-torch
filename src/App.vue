@@ -44,8 +44,8 @@ export default {
       return this.trail[0];
     },
     start() {
-      //this.socket = new Socket();
-      //this.socket.onTransaction(this.monitor.bind(this));
+      this.socket = new Socket();
+      this.socket.onTransaction(this.monitor.bind(this));
 
       // for backup purposes
       function makeTrailGlobal() {

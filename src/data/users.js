@@ -2,6 +2,9 @@ export default {
   "1GPGgwyDFpyWNNYG9b75rewiCULGNyzef8": {
     twitter: "https://twitter.com/LeeFlemingster/status/1103568864451932160"
   },
+  "1ENMVwarqYcBYoW8tSTxVsGpZLt2ZXb9o2": {
+    twitter: "https://twitter.com/EmergentReasons/status/1103452941518700546"
+  },
   "1KxRdCeSnLtmqsyepCc8Sm2rJcZY8vQtqV": {
     twitter: "https://twitter.com/zquestz/status/1103456473244418054"
   },

@@ -21,7 +21,7 @@ import Who from "./components/Who";
 import trail from "./data/trail";
 import TimeAgo from "javascript-time-ago";
 import TimeAgoEn from "javascript-time-ago/locale/en";
-import { canonical, convenient } from "javascript-time-ago/gradation";
+import { canonical } from "javascript-time-ago/gradation";
 import axios from "axios";
 import Socket from "./socket";
 

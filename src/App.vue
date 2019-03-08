@@ -7,7 +7,7 @@
     <section id="trail">
       <div v-for="(step, index) in trail" :key="step.id" v-bind:class="{ genesis: index == trail.length - 1, last: index == 0 }">
         <div class="count">{{ trail.length - index }}</div>
-        <div class="time"><span :title="step.time | timelocale">{{ step.time | timeago }}</span></div>
+        <div class="time"><span :title="step.time | timelocale">{{ step.time + (ticker/ticker) | timeago }}</span></div>
         <div class="tx"><a :href="'https://explorer.bitcoin.com/bch/tx/' + step.id">{{ step.id | tx }}</a></div>
         <who v-bind:legacy="step.to"></who>
       </div>
@@ -20,6 +20,7 @@ import Who from "./components/Who";
 import trail from "./data/trail";
 import TimeAgo from "javascript-time-ago";
 import TimeAgoEn from "javascript-time-ago/locale/en";
+import { canonical, convenient } from "javascript-time-ago/gradation";
 import axios from "axios";
 import Socket from "./socket";
 
@@ -30,6 +31,7 @@ export default {
   name: "app",
   data() {
     return {
+      ticker: 1,
       trail: trail
     };
   },
@@ -44,19 +46,28 @@ export default {
       return this.trail[0];
     },
     start() {
+      this.last().time = Math.floor(new Date().getTime() / 1000);
+        
+      // update trail since step in captured snapshot
+      this.load(this.last().id);
+
+      // listen to new transactions
       this.socket = new Socket();
       this.socket.onTransaction(this.monitor.bind(this));
 
-      // for backup purposes
+      // update times
+      function updateTicker() {
+        this.ticker++;
+      }
+      setInterval(updateTicker.bind(this), 1000);
+
+      // backup purposes
       function makeTrailGlobal() {
         if (this.trail && this.trail.length) {
           window._trail = JSON.parse(JSON.stringify(this.trail));
         }
       }
       setInterval(makeTrailGlobal.bind(this), 60000);
-
-      // load since last transaction
-      this.load(this.last().id);
     },
     monitor(tx) {
       let lastTx = this.last();
@@ -107,7 +118,7 @@ export default {
       return date.toLocaleDateString() + " " + date.toLocaleTimeString();
     },
     timeago(value) {
-      return timeAgo.format(new Date(value * 1000));
+      return timeAgo.format(new Date(value * 1000), { gradation: canonical });
     },
     tx(value) {
       return value;

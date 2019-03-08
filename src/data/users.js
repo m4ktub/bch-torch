@@ -35,6 +35,12 @@ export default {
   "1FQ29FuzTkDRcnCb4zaDL3PAzo3QLpZxho": {
     twitter: "https://twitter.com/Klakurka/status/1103680413266927621"
   },
+  "1DUJJhZK6AWrsYNBp3GRvevMtebMZXgJRT": {
+    twitter: "https://twitter.com/Klakurka"
+  },
+  "14t9yCfSZL7ajyXuRwri73uyStRUNe11TD": {
+    twitter: "https://twitter.com/SouperNerd"
+  },
   "1NKfAXtmMW3LXcsgnrY5AhSSpkPkg2wd9C": {
     twitter: "https://twitter.com/DavidShares/status/1103688119696703488"
   },

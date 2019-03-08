@@ -1,5 +1,5 @@
 <template>
-  <span class="who">
+  <div class="who">
     <span class="twitter" v-if="isTwitter">
       <a v-bind:href="details.twitter">{{ details.twitter | twitteruser }}</a>
     </span>
@@ -9,7 +9,7 @@
     <span class="address" v-if="isLegacy">
       <a v-bind:href="address | linkaddress">{{ address | toslpaddr }}</a>
     </span>
-  </span>
+  </div>
 </template>
 
 <script>

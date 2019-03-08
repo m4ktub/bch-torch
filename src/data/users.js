@@ -39,12 +39,12 @@ export default {
     twitter: "https://twitter.com/DavidShares/status/1103688119696703488"
   },
   "15Q6b15NeRvVWmj2McpmMKWuNGr6Mj3B9u": {
-    twitter: "https://twitter.com/maplesyrupsuckr"
+    twitter: "https://twitter.com/maplesyrupsuckr/status/1103949693455749121"
   },
   "1DJN3FxJkCJSVX99FadxQ8pcD6epmnAyqJ": {
     twitter: "https://twitter.com/BionicHacker/status/1103612969361977344"
   },
   "1AAibNCh7kxVZNhUuRGJjEGH2jkpnR2sw7": {
-    twitter: "https://twitter.com/maplesyrupsuckr/status/1103949693455749121"
+    twitter: "https://twitter.com/rogerkver"
   }
 };

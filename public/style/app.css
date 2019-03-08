@@ -1,0 +1,29 @@
+#trail .count {
+  display: inline-block;
+  width: 40px;
+}
+
+#trail .count:before {
+  content: '#';
+}
+
+#trail .time {
+  display: inline-block;
+  margin-left: 10px;
+  width: 100px;
+}
+
+#trail .tx {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: monospace;
+}
+
+#trail .who {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#trail .who .address {
+  font-family: monospace;
+}

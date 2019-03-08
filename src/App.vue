@@ -47,8 +47,6 @@ export default {
       return this.trail[0];
     },
     start() {
-      this.last().time = Math.floor(new Date().getTime() / 1000);
-        
       // update trail since step in captured snapshot
       this.load(this.last().id);
 

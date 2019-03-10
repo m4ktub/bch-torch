@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <section id="header">
-      <img height="32" src="./images/torch-128.png">
+      <img height="128" src="./images/torch-color-565.png">
       <h1>The Bitcoin Cash Torch</h1>
       <p>Follow the trail of the first (and only) Bitcoin Cash torch.</p>
     </section>

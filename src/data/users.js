@@ -51,6 +51,9 @@ export default {
     twitter: "https://twitter.com/BionicHacker/status/1103612969361977344"
   },
   "1AAibNCh7kxVZNhUuRGJjEGH2jkpnR2sw7": {
-    twitter: "https://twitter.com/rogerkver"
+    twitter: "https://twitter.com/rogerkver/status/1104514409735417857"
+  },
+  "1wXPLyDYiYZi5DQw7a3W13XjMjSbye9jE": {
+    twitter: "https://twitter.com/PaulLambert816"
   }
 };

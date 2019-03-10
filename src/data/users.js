@@ -54,6 +54,9 @@ export default {
     twitter: "https://twitter.com/rogerkver/status/1104514409735417857"
   },
   "1wXPLyDYiYZi5DQw7a3W13XjMjSbye9jE": {
-    twitter: "https://twitter.com/PaulLambert816"
+    twitter: "https://twitter.com/PaulLambert816/status/1104631560370704384"
+  },
+  "17WfF5ynAsvqnUR2X4dTSMsZduaotjJVKX": {
+    twitter: "https://twitter.com/SpencerLambert"
   }
 };

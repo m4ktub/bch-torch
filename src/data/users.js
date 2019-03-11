@@ -41,7 +41,8 @@ export default {
     twitter: "https://twitter.com/paOolCoin/status/1103556037016092672"
   },
   "1XmQo8qmEpsy9LTy65Cr3zA3ySvZDXKjS": {
-    twitter: "https://twitter.com/Anthony05064687"
+    twitter: "https://twitter.com/Anthony05064687",
+    country: "nl"
   },
   "1FQ29FuzTkDRcnCb4zaDL3PAzo3QLpZxho": {
     twitter: "https://twitter.com/Klakurka/status/1103680413266927621",
@@ -86,8 +87,12 @@ export default {
     country: "us"
   },
   "1PL5yfc4mj78wmphRDYkKMDTFzPMCsyxGT": {
-    twitter: "https://twitter.com/eatBCH_VE",
+    twitter: "https://twitter.com/eatbch_ve/status/1104871880698269701",
     country: "ve",
     badges: [ "eatbch_ve.jpg" ]
+  }, 
+  "1K9Mh1o8hYcWmgrq7Tx3nPZF1pdZiEmVBn": {
+    twitter: "https://twitter.com/Egon_01",
+    badges: [ "egon.png" ]
   }
 };

@@ -94,5 +94,9 @@ export default {
   "1K9Mh1o8hYcWmgrq7Tx3nPZF1pdZiEmVBn": {
     twitter: "https://twitter.com/Egon_01",
     badges: [ "egon.png" ]
+  },
+  "1HLJJwV6EMuvQ7hLbPvcCgF4tn8uq53H6q": {
+    twitter: "https://twitter.com/CryptoWyvern",
+    country: "ca"
   }
 };

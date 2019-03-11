@@ -20,8 +20,21 @@
 }
 
 #trail .who {
+  position: relative;
   display: inline-block;
   margin-left: 10px;
+}
+
+#trail .who .images {
+    text-align: left;
+    position: absolute;
+    left: 180px;
+    width: 200px;
+    top: 0px;
+}
+
+#trail .who img {
+  margin-left: 4px;
 }
 
 #trail .who .address {
@@ -66,7 +79,7 @@
     /*margin:1em 0;*/
     color:#fff;
     font-weight:700;
-    width:3.5%
+    width:3.5%;
     min-width: 42px;
 }
 #trail .time{
@@ -76,11 +89,11 @@
     text-align:center!important
 }
 #trail .tx,#trail .who{
-    width:45%;
+    /*width:45%;*/
     margin-left:1%;
 }
 #trail .who{
-    width:15%;
+    /*width:15%;*/
 }
 #trail,#trail .who .address a{
     font-family:sans-serif

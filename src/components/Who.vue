@@ -9,6 +9,14 @@
     <span class="address" v-if="isLegacy">
       <a v-bind:href="address | linkaddress">{{ address | toslpaddr }}</a>
     </span>
+    <div class="images">
+      <span v-if="hasCountry" class="flag">
+        <img v-bind:src="'https://www.countryflags.io/' + details.country + '/flat/32.png'">
+      </span>
+      <span v-if="hasBadge" class="badges">
+        <img v-for="step in details.badges" :key="step" v-bind:src="'/bch-torch/images/' + step" height="32">
+      </span>
+    </div>    
   </div>
 </template>
 
@@ -37,6 +45,12 @@ export default {
     },
     isLegacy() {
       return this.details == null;
+    },
+    hasCountry() {
+      return this.details && !!this.details.country;
+    },
+    hasBadge() {
+      return this.details && !!this.details.badges;
     }
   },
   filters: {

@@ -28,12 +28,25 @@ import Socket from "./socket";
 TimeAgo.addLocale(TimeAgoEn);
 const timeAgo = new TimeAgo("en-US");
 
+function sanitize(steps) {
+  return steps.reduceRight((acc, val) => {
+    let last = acc[0];
+    if (last && last.to == val.to) {
+      acc[0] = val;
+      return acc;
+    } else {
+      acc.unshift(val);
+      return acc;
+    }
+  }, []);
+}
+
 export default {
   name: "app",
   data() {
     return {
       ticker: 1,
-      trail: trail
+      trail: sanitize(trail)
     };
   },
   components: {
@@ -96,13 +109,20 @@ export default {
       let address = output.scriptPubKey.addresses[0];
 
       let lastStepTxId = this.last().id;
+      let lastStepAddr = this.last().to;
       if (lastStepTxId != txId) {
-        this.trail.unshift({
+        let step = {
           id: txId,
           vout: index,
           time: txDetails.time,
           to: address
-        });
+        };
+        
+        if (lastStepAddr == address) {
+          this.trail[0] = step;
+        } else {
+          this.trail.unshift(step);
+        }
       }
 
       let spentTxId = output.spentTxId;

@@ -105,7 +105,7 @@ export default {
     badges: [ "tophat.png", "bitbox.png" ]
   },
   "15idnmzhbFY3LE2aNqnbm9NjyLXcgXzSQj": {
-    twitter: "https://twitter.com/SpendBCH_io",
+    twitter: "https://twitter.com/SpendBCH_io/status/1105410209755746305",
     badges: [ "badger.png" ]
   }
 };

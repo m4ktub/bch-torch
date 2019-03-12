@@ -16,7 +16,7 @@
       <span v-if="hasBadge" class="badges">
         <img v-for="step in details.badges" :key="step" v-bind:src="'/bch-torch/images/' + step" height="32">
       </span>
-    </div>    
+    </div>
   </div>
 </template>
 

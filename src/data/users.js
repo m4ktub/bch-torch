@@ -41,7 +41,7 @@ export default {
     twitter: "https://twitter.com/paOolCoin/status/1103556037016092672"
   },
   "1XmQo8qmEpsy9LTy65Cr3zA3ySvZDXKjS": {
-    twitter: "https://twitter.com/Anthony05064687",
+    twitter: "https://twitter.com/Anthony__Banks",
     country: "nl"
   },
   "1FQ29FuzTkDRcnCb4zaDL3PAzo3QLpZxho": {

@@ -58,7 +58,8 @@ export default {
   },
   "1NKfAXtmMW3LXcsgnrY5AhSSpkPkg2wd9C": {
     twitter: "https://twitter.com/DavidShares/status/1103688119696703488",
-    country: "us"
+    country: "us",
+    badges: [ "redditmod.png" ]
   },
   "15Q6b15NeRvVWmj2McpmMKWuNGr6Mj3B9u": {
     twitter: "https://twitter.com/maplesyrupsuckr/status/1103949693455749121",
@@ -98,5 +99,13 @@ export default {
   "1HLJJwV6EMuvQ7hLbPvcCgF4tn8uq53H6q": {
     twitter: "https://twitter.com/CryptoWyvern",
     country: "ca"
+  },
+  "1NKNdfgPq1EApuNaf5mrNRUPbwVHQt3MeB": {
+    twitter: "https://twitter.com/cgcardona/status/1105285836700966913",
+    badges: [ "tophat.png", "bitbox.png" ]
+  },
+  "15idnmzhbFY3LE2aNqnbm9NjyLXcgXzSQj": {
+    twitter: "https://twitter.com/SpendBCH_io",
+    badges: [ "badger.png" ]
   }
 };

@@ -105,7 +105,16 @@ export default {
     badges: [ "tophat.png", "bitbox.png" ]
   },
   "15idnmzhbFY3LE2aNqnbm9NjyLXcgXzSQj": {
-    twitter: "https://twitter.com/SpendBCH_io/status/1105410209755746305",
+    twitter: "https://twitter.com/SpendBCH_io/status/1105897591454162944",
     badges: [ "badger.png" ]
+  },
+  "15zK8463ioDgURo55TDP4J75w5PKEw4di7": {
+    twitter: "https://twitter.com/SimpleLedger/status/1105920538772426752",
+    country: "us",
+    badges: [ "simpleledger.jpg" ]
+  },
+  "19W3dfyAMcsrRBtSv3DWujrGUuQFtN8ZbX": {
+    twitter: "https://twitter.com/samilux",
+    country: "my"
   }
 };

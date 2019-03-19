@@ -1,7 +1,7 @@
 import io from "socket.io-client";
 
 const Configuration = {
-  baseURL: 'https://rest.bitcoin.com'
+  baseURL: "https://rest.bitcoin.com"
 }
 
 export default class Socket {
@@ -28,5 +28,4 @@ export default class Socket {
       this._socket.connect();
     }
   }
-
 }

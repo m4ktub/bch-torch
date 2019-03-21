@@ -117,8 +117,8 @@ export default {
     twitter: "https://twitter.com/samilux",
     country: "my"
   },
-  "1JBnXATU5Mx5GSc94bN21GFJTAXg1wNv5m": {
-    twitter: "https://twitter.com/hifromlaura1/status/1104865141672292353",
+  "1MQpUHc16LJ2pv6dsibFJ18Q6n4SkUT3ym": {
+    twitter: "https://twitter.com/edwinolson",
     country: "us"
   }
 };

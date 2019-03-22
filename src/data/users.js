@@ -117,8 +117,12 @@ export default {
     twitter: "https://twitter.com/samilux",
     country: "my"
   },
-  "1MQpUHc16LJ2pv6dsibFJ18Q6n4SkUT3ym": {
-    twitter: "https://twitter.com/edwinolson",
+  "18qJ9yKfCgSQNZvuGLyk7T5JGaAnF9oZu8": {
+    twitter: "https://twitter.com/edwinolson/status/1108829325502107648",
+    country: "us"
+  },
+  "1L6iYmivCmQ3wkxNRrx8cY1bFYbQqUKzqA": {
+    twitter: "https://twitter.com/ewust",
     country: "us"
   }
 };

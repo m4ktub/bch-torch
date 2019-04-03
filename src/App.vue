@@ -14,7 +14,7 @@
     <section id="page">
       <div id="page-offset">
         <div class="separator">
-          <div class="title">Cláudio Gil</div>
+          <div class="title">Trail</div>
         </div>
         <ul id="trail">
           <li v-for="(step, index) in trail" :key="step.id" v-bind:class="{ genesis: index == trail.length - 1, last: index == 0 }">

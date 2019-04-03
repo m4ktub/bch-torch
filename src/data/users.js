@@ -122,7 +122,11 @@ export default {
     country: "us"
   },
   "1L6iYmivCmQ3wkxNRrx8cY1bFYbQqUKzqA": {
-    twitter: "https://twitter.com/ewust",
+    twitter: "https://twitter.com/ewust/status/1113247022356750337",
+    country: "us"
+  },
+  "1D8vm62xjzfMPcrzTcaFnMHTcq96i8cQkX": {
+    twitter: "https://twitter.com/AndresS5930",
     country: "us"
   }
 };

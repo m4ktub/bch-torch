@@ -1,7 +1,13 @@
 <template>
   <div class="who">
     <span class="twitter" v-if="isTwitter">
-      <a v-bind:href="details.twitter">{{ details.twitter | twitteruser }}</a>
+      <div v-if="shouldDisplayTwitter">
+        <Tweet :id="details.twitter | twitterid" :options="{ cards: 'hidden', conversation: 'none', width: '550' }"/>
+      </div>
+      <div v-else>
+        <!--<img src="details.twitter | twitteruser"> If you run it on a server-->
+        <a v-bind:href="details.twitter">{{ details.twitter | twitteruser }}</a>
+      </div>
     </span>
     <span class="reddit" v-if="isReddit">
       <a v-bind:href="details.reddit">{{ details.reddit | reddituser }}</a>
@@ -23,9 +29,14 @@
 <script>
 import users from "../data/users";
 import slpaddr from "bchaddrjs-slp";
+import { Tweet, Moment, Timeline } from "vue-tweet-embed";
+var request = require('request');
 
 export default {
   name: "who",
+  components: {
+    Tweet
+  },
   props: {
     legacy: String,
     cashaddr: String
@@ -39,6 +50,9 @@ export default {
   computed: {
     isTwitter() {
       return this.details && !!this.details.twitter;
+    },
+    shouldDisplayTwitter() {
+      return this.details.twitter.includes("status");
     },
     isReddit() {
       return this.details && !!this.details.reddit;
@@ -56,7 +70,20 @@ export default {
   filters: {
     twitteruser(url) {
       let match = url.match(/twitter.com\/([^/]+)/);
-      return match ? "@" + match[1] : url;
+      //var url = "https://twitter.com/" + match[1] + "/profile_image/?size=original";
+      return "@" + match[1];
+
+      /*var r = request.get(url, function (err, res, body) {
+        console.log(r.uri.href);
+        return(r.uri.href);
+      });*/
+    },
+    twitterid(url) {
+      if(url.includes("status")) {
+        return url.split("status")[1].split("/")[1];
+      } else {
+        return url;
+      }
     },
     reddituser(url) {
       let match = url.match(/reddit.com\/([^/]+\/[^/]+)/);

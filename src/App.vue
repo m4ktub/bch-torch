@@ -1,21 +1,38 @@
 <template>
   <div id="app">
+    <nav>
+      <div class="tab"><img src="/bch-torch/images/torch-color-565.png"></div>
+      <div class="tab"><a href="https://github.com/m4ktub">by Cláudio Gil</a></div>
+    </nav>
     <section id="header">
-      <img height="128" src="/bch-torch/images/torch-color-565.png">
-      <h1>The Bitcoin Cash Torch</h1>
-      <p>Follow the trail of the first (and only) Bitcoin Cash torch.</p>
+      <div class="header-image"></div>
+      <div class="header-container">
+        <h1>The Bitcoin Cash Torch</h1>
+        <p>Follow the trail of the first and only Bitcoin Cash torch</p>
+      </div>
     </section>
-    <section id="trail">
-      <div v-for="(step, index) in trail" :key="step.id" v-bind:class="{ genesis: index == trail.length - 1, last: index == 0 }">
-        <div class="count">{{ trail.length - index }}</div>
-        <div class="time"><span :title="step.time | timelocale">{{ step.time + (ticker/ticker) | timeago }}</span></div>
-        <div class="tx"><a :href="'https://explorer.bitcoin.com/bch/tx/' + step.id">{{ step.id | tx }}</a></div>
-        <who v-bind:legacy="step.to"></who>
+    <section id="page">
+      <div id="page-offset">
+        <div class="separator">
+          <div class="title">Cláudio Gil</div>
+        </div>
+        <ul id="trail">
+          <li v-for="(step, index) in trail" :key="step.id" v-bind:class="{ genesis: index == trail.length - 1, last: index == 0 }">
+            <span></span>
+            <div class="post-container">
+              <div class="tx"><a :href="'https://explorer.bitcoin.com/bch/tx/' + step.id">{{ step.id | tx }}</a></div>
+              <who v-bind:legacy="step.to"></who>
+            </div>
+            <div class="date-container">
+              <span :title="step.time | timelocale">{{ step.time + (ticker/ticker) | timeago }}</span>
+            </div>
+            <div class="time"><span class="count">{{ trail.length - index }}</span></div>
+          </li>
+        </ul>
       </div>
     </section>
   </div>
 </template>
-
 <script>
 import Who from "./components/Who";
 import trail from "./data/trail";
@@ -50,7 +67,7 @@ export default {
     };
   },
   components: {
-    who: Who
+    who: Who,
   },
   mounted() {
     this.start();
@@ -145,7 +162,3 @@ export default {
   }
 };
 </script>
-
-<style>
-/* awesome style */
-</style>

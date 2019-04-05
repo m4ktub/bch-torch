@@ -138,6 +138,7 @@ export default {
     badges: [ "findbitcoincash.png" ]
   },
   "1KUAiNZrn9mXAyJNyzDfCnjPRFswzyU72C": {
-    twitter: "https://twitter.com/acidsploit/status/1114277283379011584"
+    twitter: "https://twitter.com/acidsploit/status/1114277283379011584",
+    country: "be"
   }
 };

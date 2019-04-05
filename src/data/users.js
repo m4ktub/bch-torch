@@ -130,7 +130,8 @@ export default {
     country: "us"
   },
   "1BUZPDKcUgETshebue9n69gBz1ddh3hcLJ": {
-    twitter: "https://twitter.com/BCHcain/status/1113980461590536195"
+    twitter: "https://twitter.com/BCHcain/status/1113980461590536195",
+    country: "us"
   },
   "19USXDUDy3559h7MKB3T9GwV26x8DfQc69": {
     twitter: "https://twitter.com/CreativeName4/status/1113984978654830592",

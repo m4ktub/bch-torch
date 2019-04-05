@@ -126,7 +126,18 @@ export default {
     country: "us"
   },
   "1D8vm62xjzfMPcrzTcaFnMHTcq96i8cQkX": {
-    twitter: "https://twitter.com/AndresS5930",
+    twitter: "https://twitter.com/AndresS5930/status/1113938858582990849",
     country: "us"
+  },
+  "1BUZPDKcUgETshebue9n69gBz1ddh3hcLJ": {
+    twitter: "https://twitter.com/BCHcain/status/1113980461590536195"
+  },
+  "19USXDUDy3559h7MKB3T9GwV26x8DfQc69": {
+    twitter: "https://twitter.com/CreativeName4/status/1113984978654830592",
+    country: "ca",
+    badges: [ "findbitcoincash.png" ]
+  },
+  "1KUAiNZrn9mXAyJNyzDfCnjPRFswzyU72C": {
+    twitter: "https://twitter.com/acidsploit/status/1114277283379011584"
   }
 };

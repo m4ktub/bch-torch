@@ -139,7 +139,15 @@ export default {
     badges: [ "findbitcoincash.png" ]
   },
   "1KUAiNZrn9mXAyJNyzDfCnjPRFswzyU72C": {
-    twitter: "https://twitter.com/acidsploit/status/1114277283379011584",
+    twitter: "https://twitter.com/acidsploit/status/1114516265798909952",
     country: "be"
+  },
+  "1HUgFTqc1b8F4nA9W1SDoMppj1dLfNi1o1": {
+    twitter: "https://twitter.com/m4ktub2/status/1114593919650680832",
+    country: "pt"
+  },
+  "1Dah41EsF6mWbUqaAMFfMkzwsrkT72skYY": {
+    twitter: "https://twitter.com/ampajaro",
+    country: "es"
   }
 };

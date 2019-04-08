@@ -147,7 +147,15 @@ export default {
     country: "pt"
   },
   "1Dah41EsF6mWbUqaAMFfMkzwsrkT72skYY": {
-    twitter: "https://twitter.com/ampajaro",
+    twitter: "https://twitter.com/ampajaro/status/1115166293529976832",
+    country: "es"
+  },
+  "1C2bKQffGWxk1eLRJBLReshmZBRvhfz5uU": {
+    twitter: "https://twitter.com/1reizu/status/1115358668306960384",
+    country: "es"
+  },
+  "16XaxtxQiCiNYa3LhDhErZ83NrxPhZbphS": {
+    twitter: "https://twitter.com/fmarcosh",
     country: "es"
   }
 };

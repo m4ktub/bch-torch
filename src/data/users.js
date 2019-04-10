@@ -155,7 +155,11 @@ export default {
     country: "es"
   },
   "16XaxtxQiCiNYa3LhDhErZ83NrxPhZbphS": {
-    twitter: "https://twitter.com/fmarcosh",
+    twitter: "https://twitter.com/fmarcosh/status/1115972374564868099",
     country: "es"
+  },
+  "1BkTq5a1mZpemU38QetxToHQkP4DbiH8HC": {
+    twitter: "https://twitter.com/amritabithi",
+    badges: [ "slpfaucet.png" ]
   }
 };

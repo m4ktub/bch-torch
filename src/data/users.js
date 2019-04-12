@@ -159,7 +159,10 @@ export default {
     country: "es"
   },
   "1BkTq5a1mZpemU38QetxToHQkP4DbiH8HC": {
-    twitter: "https://twitter.com/amritabithi",
+    twitter: "https://twitter.com/amritabithi/status/1116261342070104065",
     badges: [ "slpfaucet.png" ]
+  },
+  "1FnYbQwmCZQ2XMDpv1iG4PVLrxhAHhQ3gt": {
+    twitter: "https://twitter.com/cryptotux"
   }
 };

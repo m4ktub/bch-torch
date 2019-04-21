@@ -159,10 +159,13 @@ export default {
     country: "es"
   },
   "1BkTq5a1mZpemU38QetxToHQkP4DbiH8HC": {
-    twitter: "https://twitter.com/amritabithi/status/1116261342070104065",
+    twitter: "https://twitter.com/amritabithi",
     badges: [ "slpfaucet.png" ]
   },
   "1FnYbQwmCZQ2XMDpv1iG4PVLrxhAHhQ3gt": {
-    twitter: "https://twitter.com/cryptotux"
+    twitter: "https://twitter.com/cryptotux/status/1116261859185844224"
+  },
+  "1fBfaCWQx3Punyt8rHFD1ugFx4tqLZLKL": {
+    twitter: "https://twitter.com/JlMoriart/status/1119707157715406849"
   }
 };

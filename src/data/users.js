@@ -167,5 +167,13 @@ export default {
   },
   "1fBfaCWQx3Punyt8rHFD1ugFx4tqLZLKL": {
     twitter: "https://twitter.com/JlMoriart/status/1119707157715406849"
+  },
+  "1FC5Wi3r6pvWSafNjSsdPwPpwa6wuzGKoq": {
+    twitter: "https://twitter.com/BitcoinPele/status/1120090401069780992",
+    country: "br"
+  },
+  "13A8rr16C7nyHwaNqAG8qY4qdFpiyS4qr6": {
+    twitter: "https://twitter.com/pokkst/status/1120097619173355520",
+    badges: [ "crescent.png" ]
   }
 };

@@ -173,7 +173,13 @@ export default {
     country: "br"
   },
   "13A8rr16C7nyHwaNqAG8qY4qdFpiyS4qr6": {
-    twitter: "https://twitter.com/pokkst/status/1120097619173355520",
+    twitter: "https://twitter.com/pokkst/status/1120119575876648963",
     badges: [ "crescent.png" ]
+  },
+  "1EcF59JJoKwLFiVDi8YK4WYYHaotNAyTDs": {
+    twitter: "https://twitter.com/brianxv15/status/1120140874950770690"
+  },
+  "1D2FPYXTqooSTnkwSWQN9P5wda1o453FQC": {
+    twitter: "https://twitter.com/BitcoinCashFans/status/1120144836617756673"
   }
 };

@@ -180,6 +180,24 @@ export default {
     twitter: "https://twitter.com/brianxv15/status/1120140874950770690"
   },
   "1D2FPYXTqooSTnkwSWQN9P5wda1o453FQC": {
-    twitter: "https://twitter.com/BitcoinCashFans/status/1120144836617756673"
+    twitter: "https://twitter.com/BitcoinCashFans/status/1120860170085646338"
+  },
+  "12UPimFdtr56tg4GHbJ16R1ho5FtCybeFA": {
+    twitter: "https://twitter.com/BostonBCHMeetup/status/1120863977360252928",
+    country: "us"
+  },
+  "1G2TX5npebedBYQNQRvMKLB6ch3QaSCTyN": {
+    twitter: "https://twitter.com/derrickjme/status/1121124187353964544",
+    country: "us"
+  },
+  "16QicaHX8q2akc2g26DcS4AtZ1smcmesST": {
+    twitter: "https://twitter.com/stevenzeiler/status/1120869382740115459",
+    country: "us",
+    badges: [ "anypay.jpg" ]
+  },
+  "1KQduQdkpKWuo9QxW7odH7TBsTYC6yytcT": {
+    twitter: "https://twitter.com/FTL_Ian/status/1120890921493643264",
+    country: "us",
+    badges: [ "freetalklive.png" ]
   }
 };

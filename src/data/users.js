@@ -196,8 +196,17 @@ export default {
     badges: [ "anypay.jpg" ]
   },
   "1KQduQdkpKWuo9QxW7odH7TBsTYC6yytcT": {
-    twitter: "https://twitter.com/FTL_Ian/status/1120890921493643264",
+    twitter: "https://twitter.com/FTL_Ian/status/1122954469916979200",
     country: "us",
     badges: [ "freetalklive.png" ]
+  },
+  "1BSB5c543Ex7zGhemKfu7PFCigsz3cp2kd": {
+    twitter: "https://twitter.com/KianFleming2/status/1123314048433643520"
+  },
+  "1GFF6X8PSCjG6JXjfLPrdebvBWZtdQG8nr": {
+    twitter: "https://twitter.com/bitcoininfo/status/1123562795537240065"
+  },
+  "1Kjt3oVrAanVjSQEjsTeedBxeerMZWwaju": {
+    twitter: "https://twitter.com/Latonerk/status/1123621900259872768"
   }
 };

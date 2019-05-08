@@ -207,6 +207,14 @@ export default {
     twitter: "https://twitter.com/bitcoininfo/status/1123562795537240065"
   },
   "1Kjt3oVrAanVjSQEjsTeedBxeerMZWwaju": {
-    twitter: "https://twitter.com/Latonerk/status/1123621900259872768"
+    twitter: "https://twitter.com/Latonerk/status/1125844080955678720"
+  },
+  "1DiHLvLwc9p3LrZUY2jPxt6c28jtRnCx1R": {
+    twitter: "https://twitter.com/KaeptnKook/status/1126164624523649027",
+    country: "de"
+  },
+  "1K8NRzH28oP6zbeNkexMyKGgAmQjJv54pC": {
+    twitter: "https://twitter.com/sylvestre_blanc",
+    country: "ch"
   }
 };

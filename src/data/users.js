@@ -214,7 +214,12 @@ export default {
     country: "de"
   },
   "1K8NRzH28oP6zbeNkexMyKGgAmQjJv54pC": {
-    twitter: "https://twitter.com/sylvestre_blanc",
+    twitter: "https://twitter.com/sylvestre_blanc/status/1126480674645585920",
     country: "ch"
+  },
+  "1CqaUogJaquocBZG3SniJB3tcJJdihrEuM": {
+    twitter: "https://twitter.com/usatie/status/1126481965887049728",
+    country: "jp",
+    badges: [ "yenom.png" ]
   }
 };

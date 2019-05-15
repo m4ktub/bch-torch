@@ -218,8 +218,11 @@ export default {
     country: "ch"
   },
   "1CqaUogJaquocBZG3SniJB3tcJJdihrEuM": {
-    twitter: "https://twitter.com/usatie/status/1126481965887049728",
+    twitter: "https://twitter.com/usatie/status/1128505092884160512",
     country: "jp",
     badges: [ "yenom.png" ]
+  },
+  "1A98w2fHTNA9eyikiXWMPDhNDGhErgtNP1": {
+    twitter: "https://twitter.com/Bitcoin/status/1128527297554808833"
   }
 };

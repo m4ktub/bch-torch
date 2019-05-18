@@ -223,6 +223,13 @@ export default {
     badges: [ "yenom.png" ]
   },
   "1A98w2fHTNA9eyikiXWMPDhNDGhErgtNP1": {
-    twitter: "https://twitter.com/Bitcoin/status/1128527297554808833"
+    twitter: "https://twitter.com/Bitcoin/status/1128747264028098563",
+    badges: [ "twitter_bitcoin.jpg" ]
+  },
+  "1AHVWNy3WaAbPf29jD7HaXLSSBQzdEYe5k": {
+    twitter: "https://twitter.com/CryptoPanda15/status/1129175663548571649"
+  },
+  "1Cj2UDWeMPstg7rni4K4Vm8HV57tao22Xa": {
+    twitter: "https://twitter.com/BitcoinCashIRL/status/1129700137385758720"
   }
 };

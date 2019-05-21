@@ -230,6 +230,9 @@ export default {
     twitter: "https://twitter.com/CryptoPanda15/status/1129175663548571649"
   },
   "1Cj2UDWeMPstg7rni4K4Vm8HV57tao22Xa": {
-    twitter: "https://twitter.com/BitcoinCashIRL/status/1129700137385758720"
+    twitter: "https://twitter.com/BitcoinCashIRL/status/1130795885980463107"
+  },
+  "1JuuJj3MnrA2uRh468fiaGnPnAm22W7vho": {
+    twitter: "https://twitter.com/IssisMiss/status/1130815706025660416"
   }
 };

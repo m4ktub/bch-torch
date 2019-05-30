@@ -233,6 +233,9 @@ export default {
     twitter: "https://twitter.com/BitcoinCashIRL/status/1130795885980463107"
   },
   "1JuuJj3MnrA2uRh468fiaGnPnAm22W7vho": {
-    twitter: "https://twitter.com/IssisMiss/status/1130815706025660416"
+    twitter: "https://twitter.com/IssisMiss/status/1133481137576271876"
+  },
+  "1CLhk8Vp7cSEeu35M42kCDSSYGVyTRfHy6": {
+    twitter: "https://twitter.com/APlantaSanta/status/1133481481362395138"
   }
 };

@@ -236,6 +236,14 @@ export default {
     twitter: "https://twitter.com/IssisMiss/status/1133481137576271876"
   },
   "1CLhk8Vp7cSEeu35M42kCDSSYGVyTRfHy6": {
-    twitter: "https://twitter.com/APlantaSanta/status/1133481481362395138"
+    twitter: "https://twitter.com/APlantaSanta/status/1136202286043213824"
+  },
+  "1F5GrRezwGokQhxmF4fYaBbbNrPPaeBqMm": {
+    twitter: "https://twitter.com/memobch/status/1136278427667795974",
+    country: "us",
+    badges: [ "memo.jpg" ]
+  },
+  "18tyBMmRzfaZBDndq9rXmYvkJz1Tzqx3on": {
+    twitter: "https://twitter.com/btcfork/status/1136289050007166977"
   }
 };

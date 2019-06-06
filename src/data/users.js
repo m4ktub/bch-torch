@@ -244,6 +244,25 @@ export default {
     badges: [ "memo.jpg" ]
   },
   "18tyBMmRzfaZBDndq9rXmYvkJz1Tzqx3on": {
-    twitter: "https://twitter.com/btcfork/status/1136289050007166977"
+    twitter: "https://twitter.com/btcfork/status/1136440531653935104"
+  },
+  "1F2jWBbiLiVtNa4WQaY8ssxxBL28Pa3adV": {
+    twitter: "https://twitter.com/christroutner"
+  },
+  "172vqBtc36pjrdEzGKTGBSKpLGQULYkjj4": {
+    twitter: "https://twitter.com/christroutner/status/1136453354186350593",
+    country: "us"
+  },
+  "16nAZSn7gZMsTwKiRgQDjt7goHy3XCyx38": {
+    twitter: "https://twitter.com/SpicyyyPete/status/1136453721024372736",
+    badges: [ "badger-mobile.png" ]
+  },
+  "1PoJp9ERdkq9WPfh4JrS8eBwJxuv3axghP": {
+    twitter: "https://twitter.com/SpicyyyPete",
+    badges: [ "badger-mobile.png" ]
+  },
+  "1B9R3GqvR2jqprjjNSk5irMf267SuAd6ZE": {
+    twitter: "https://twitter.com/MarkLundeberg",
+    badges: [ "graphene.png", "schnorr.png" ]
   }
 };

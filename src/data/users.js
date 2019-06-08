@@ -169,7 +169,7 @@ export default {
     twitter: "https://twitter.com/JlMoriart/status/1119707157715406849"
   },
   "1FC5Wi3r6pvWSafNjSsdPwPpwa6wuzGKoq": {
-    twitter: "https://twitter.com/BitcoinPele/status/1120090401069780992",
+    twitter: "https://twitter.com/BitcoinPele",
     country: "br"
   },
   "13A8rr16C7nyHwaNqAG8qY4qdFpiyS4qr6": {
@@ -262,7 +262,18 @@ export default {
     badges: [ "badger-mobile.png" ]
   },
   "1B9R3GqvR2jqprjjNSk5irMf267SuAd6ZE": {
-    twitter: "https://twitter.com/MarkLundeberg",
+    twitter: "https://twitter.com/MarkLundeberg/status/1136780541846441985",
+    country: "ca",
     badges: [ "graphene.png", "schnorr.png" ]
+  },
+  "1DqYiLPp4grSvxBPe5Tn6LsWrwPd6Lsqf9": {
+    twitter: "https://twitter.com/uriklarman/status/1137074875712118784",
+    badges: [ "bloxroute.png" ],
+    country: "us",
+  },
+  "1H6zVewNyDXsEQvYE7Sotu8dbPduGnJswQ": {
+    twitter: "https://twitter.com/monsterbitar",
+    badges: [ "cashaccount.png" ],
+    country: "se",
   }
 };

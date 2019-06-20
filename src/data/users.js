@@ -272,8 +272,12 @@ export default {
     country: "us",
   },
   "1H6zVewNyDXsEQvYE7Sotu8dbPduGnJswQ": {
-    twitter: "https://twitter.com/monsterbitar",
+    twitter: "https://twitter.com/monsterbitar/status/1138330349333831683",
     badges: [ "cashaccount.png" ],
     country: "se",
+  },
+  "1HjymJyD7GdAtLgsxwCbVPkgDBwCUvAwyX": {
+    twitter: "https://twitter.com/nishantsharma87/status/1139473157109108737",
+    country: "cn"
   }
 };

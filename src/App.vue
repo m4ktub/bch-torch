@@ -81,8 +81,8 @@ export default {
       this.load(this.last().id);
 
       // listen to new transactions
-      this.socket = new Socket();
-      this.socket.onTransaction(this.monitor.bind(this));
+      //this.socket = new Socket();
+      //this.socket.onTransaction(this.monitor.bind(this));
 
       // update times
       function updateTicker() {

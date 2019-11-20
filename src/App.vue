@@ -119,10 +119,11 @@ export default {
         .then(txDetails => this.addStep(txDetails));
     },
     addStep(txDetails) {
-      let txId = txDetails.txid;
+      let txId = txDetails.retData.txid;
       let tokenInfo = txDetails.tokenInfo;
-      let index = tokenInfo.sendOutputs.indexOf("1");
-      let output = txDetails.vout[index];
+      // https://github.com/Bitcoin-com/rest.bitcoin.com/issues/532
+      let index = tokenInfo.sendOutputs.findIndex(v => v != "0");
+      let output = txDetails.retData.vout[index];
       let address = output.scriptPubKey.addresses[0];
 
       let lastStepTxId = this.last().id;
@@ -131,7 +132,7 @@ export default {
         let step = {
           id: txId,
           vout: index,
-          time: txDetails.time,
+          time: txDetails.retData.time,
           to: address
         };
         

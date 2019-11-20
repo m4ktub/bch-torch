@@ -277,7 +277,11 @@ export default {
     country: "se",
   },
   "1HjymJyD7GdAtLgsxwCbVPkgDBwCUvAwyX": {
-    twitter: "https://twitter.com/nishantsharma87/status/1139473157109108737",
+    twitter: "https://twitter.com/nishantsharma87/status/1196835839579312128",
     country: "cn"
+  },
+  "17UXcxLgPhAShmzqExJKeUuvVJCptg2rqo": {
+    twitter: "https://twitter.com/mkomaransky",
+    country: "us"
   }
 };

@@ -15,24 +15,24 @@
     "request": "^2.88.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.8.0",
-    "@vue/cli-plugin-eslint": "^3.8.0",
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-plugin-eslint": "^3.12.1",
     "@vue/cli-plugin-unit-jest": "^4.0.5",
-    "@vue/cli-service": "^3.8.0",
+    "@vue/cli-service": "^3.12.1",
     "@vue/eslint-config-prettier": "^3.0.5",
     "@vue/test-utils": "^1.0.0-beta.29",
     "axios": "^0.18.1",
     "babel-core": "7.0.0-bridge.0",
     "babel-jest": "^25.0.0",
     "bchaddrjs": "^0.3.2",
-    "bchaddrjs-slp": "^0.2.5",
-    "javascript-time-ago": "^2.0.1",
-    "less": "^3.9.0",
+    "bchaddrjs-slp": "^0.2.7",
+    "javascript-time-ago": "^2.0.4",
+    "less": "^3.10.3",
     "less-loader": "^4.1.0",
-    "socket.io-client": "^2.2.0",
+    "socket.io-client": "^2.3.0",
     "vue": "^2.6.10",
     "vue-template-compiler": "^2.6.10",
-    "vue-tweet-embed": "^2.3.0"
+    "vue-tweet-embed": "^2.4.0"
   },
   "eslintConfig": {
     "root": true,

@@ -281,7 +281,12 @@ export default {
     country: "cn"
   },
   "17UXcxLgPhAShmzqExJKeUuvVJCptg2rqo": {
-    twitter: "https://twitter.com/mkomaransky",
+    twitter: "https://twitter.com/mkomaransky/status/1196873746650411008",
+    badges: ["gfruit.png"],
     country: "us"
+  },
+  "16WfW5fvagJAHY67NyhEQLAXSDqjBCijoS": {
+    twitter: "https://twitter.com/PeterRizun",
+    country: "ca"
   }
 };

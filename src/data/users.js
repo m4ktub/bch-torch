@@ -286,7 +286,24 @@ export default {
     country: "us"
   },
   "16WfW5fvagJAHY67NyhEQLAXSDqjBCijoS": {
-    twitter: "https://twitter.com/PeterRizun",
+    twitter: "https://twitter.com/PeterRizun/status/1222314249768226818",
+    badges: ["bitcoinscience.png"],
     country: "ca"
+  },
+  "116CsUgVNw3pvWRiLNAHj4qFuwwRTgSZbE": {
+    twitter: "hhttps://twitter.com/mikeinspace/status/1222315534290690050",
+    badges: ["cartalk.png"],
+    country: "us"
+  },
+  "13BbfwsChBtRZMRbvfovdHYB3MfzQu6Yz3": {
+    twitter: "https://twitter.com/marcoJcosta/status/1222329353650032643"
+  },
+  "1KEaxws3JTEDrdqtMqekaW3FDC6eoJzfMY": {
+    twitter: "https://twitter.com/Reset_Jett/status/1222945307031474177",
+    country: "ru"
+  },
+  "1KDmPy4wnWzkr5iYo9A5Gqw8ZGLez75Du3": {
+    twitter: "https://twitter.com/BitcoinCast/status/1222982004519645185",
+    badges: ["bitcoincast.png"]
   }
 };

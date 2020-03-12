@@ -305,5 +305,10 @@ export default {
   "1KDmPy4wnWzkr5iYo9A5Gqw8ZGLez75Du3": {
     twitter: "https://twitter.com/BitcoinCast/status/1222982004519645185",
     badges: ["bitcoincast.png"]
+  },
+  "115PowbPCy77AyWETKXTi4AkarfNS6s4Tz": {
+    twitter: "https://twitter.com/jajaaSB/status/1236577533111316481",
+    country: "th",
+    badges: ["satoshiangels.jpg"]
   }
 };

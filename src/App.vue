@@ -40,7 +40,6 @@ import TimeAgo from "javascript-time-ago";
 import TimeAgoEn from "javascript-time-ago/locale/en";
 import { canonical } from "javascript-time-ago/gradation";
 import axios from "axios";
-import Socket from "./socket";
 
 TimeAgo.addLocale(TimeAgoEn);
 const timeAgo = new TimeAgo("en-US");

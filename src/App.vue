@@ -123,6 +123,8 @@ export default {
       let tokenInfo = txDetails.tokenInfo;
       // https://github.com/Bitcoin-com/rest.bitcoin.com/issues/532
       let index = tokenInfo.sendOutputs.findIndex(v => v != "0");
+      // https://github.com/Bitcoin-com/rest.bitcoin.com/issues/573
+      index = index + 1;
       let output = txDetails.retData.vout[index];
       let address = output.scriptPubKey.addresses[0];
 

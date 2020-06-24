@@ -310,5 +310,18 @@ export default {
     twitter: "https://twitter.com/jajaaSB/status/1236577533111316481",
     country: "th",
     badges: ["satoshiangels.jpg"]
+  },
+  "1Ph2bcYECAHm26XV17ngfSvWEfUXLtGYpb": {
+    twitter: "https://twitter.com/merc1er/status/1275661311964315650",
+    badges: []
+  },
+  "1DPztPDQ4AiwzA33aBZBo2DdF68cdUjheL": {
+    twitter: "https://twitter.com/EmergentReasons/status/1275669030288928777",
+    badges: ["anyhedge.png"]
+  },
+  "1FhUzYtg7MZ7mQtSuMg9Lq41F4Kme6ENNz": {
+    twitter: "https://twitter.com/Bonyoufractal/status/1275692720481337345",
+    country: "ja",
+    badges: []
   }
 };

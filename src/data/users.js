@@ -321,7 +321,7 @@ export default {
   },
   "1FhUzYtg7MZ7mQtSuMg9Lq41F4Kme6ENNz": {
     twitter: "https://twitter.com/Bonyoufractal/status/1275692720481337345",
-    country: "ja",
+    country: "jp",
     badges: []
   }
 };

@@ -323,5 +323,20 @@ export default {
     twitter: "https://twitter.com/Bonyoufractal/status/1275692720481337345",
     country: "jp",
     badges: []
+  },
+  "1KCLQum1vN9QDnvdzGfkK4nx1SJEmiXJnM": {
+    twitter: "https://twitter.com/block_chan/status/1276017494382178304",
+    country: "jp",
+    badges: []
+  },
+  "13xhtLhU8eeuyFRxoWN9ncTZ8qNzP8GzfP": {
+    twitter: "https://twitter.com/xSaludSaru/status/1276018048676184064",
+    country: "jp",
+    badges: []
+  },
+  "14DUHdqQ8DS1SkcEdfXfUXNa4og45haLjy": {
+    twitter: "https://twitter.com/aiyadt/status/1276147505592504321",
+    country: "jp",
+    badges: []
   }
 };
